@@ -23,3 +23,12 @@ label {
         background-color: green;
         color:white;         
     }
+
+ ul.product-props {
+        font-size: small;
+    }
+
+
+ul.product-props {
+    list-style: none;
+}
