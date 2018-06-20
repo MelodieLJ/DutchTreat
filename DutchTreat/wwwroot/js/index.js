@@ -1,8 +1,11 @@
 ﻿$(document).ready(function () {
 
+    //ready executes the block of code as soon as the browser is ready
 
 //var theForm = document.getElementById("theForm");
 //theForm.hidden = true;
+
+
 
 var theForm = $("#theForm");
 theForm.hide();
