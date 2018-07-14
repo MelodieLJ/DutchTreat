@@ -70,7 +70,7 @@ ul.product-props {
 }
 
 menu li {
-    display: inline;
+    display: inline; 
 }
 
 menu li::after {
