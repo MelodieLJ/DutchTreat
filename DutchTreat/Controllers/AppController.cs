@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DutchTreat.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DutchTreat.Controllers
@@ -21,9 +22,16 @@ namespace DutchTreat.Controllers
         }
 
         [HttpPost("contact")]
-        public IActionResult Contact(object Model)
+        public IActionResult Contact(ContactViewModel model)
         {
+            if (ModelState.IsValid)
+            {
 
+            }
+            else
+            {
+
+            }
             return View();
         }
 
